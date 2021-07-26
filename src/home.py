@@ -1,0 +1,25 @@
+import streamlit as st
+def textFm():
+    st.subheader("Home") 
+    st.title("GARBAGE MANAGEMENT APP")
+    from PIL import Image
+    img = Image.open("save earth from garbage.jpg") 
+    st.image(img,width=600)
+    st.subheader("About Us:")
+    st.text("The aim of the project is to provide a better solution to waste management.")
+    st.text("Instead of dumping waste to another area,") 
+    st.text("this app proposes to transport waste to those who require it for useful purposes.") 
+    st.text("Hence the 'bekaar' is delivered to the companies who 'sweekar' it.")
+    st.subheader("Importance")
+    st.subheader("Working")
+    st.text("Our website involves a total of 3 steps:")
+    st.text("1)Collection of waste from the user. The waste collected is divided in 5 Categories : ")
+    st.text("Paper, Plastic, Organic, Glass, Metal. The users can submit waste that")
+    st.text("2)The delivery of the waste from the user to the company where the latter can order")
+    st.text("the waste materials they want to use/process, right to their doorstep.")
+
+    st.text("3)Utilisation of Waste : The company now, uses the waste by amicably collecting it,")
+    st.text("profusely processing it and efficiently recycling it. (for example: A packaging company ")
+    st.text(" may require old newspaper/books, an animal farm may require organic wastes and so on.)")
+    st.sidebar.header("Contact Us:xxxxxxxxxxx")
+    st.sidebar.header("Contact Us:xxxxxxxxxxx@gmai.com")
